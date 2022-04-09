@@ -7,7 +7,8 @@ class ListsController < ApplicationController
    list.save
    redirect_to '/top'
   end
-  def index
+  def indexgit
+   @lists = List.all
   end
 
   def show

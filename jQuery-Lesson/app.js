@@ -1,5 +1,9 @@
 $(function(){
-  $('button').on('click',function(){
-    $('ul').children().css('color','red');
-  });
+ $('.box1').slideDown(function(){
+   $('.box1').css({
+     'background-color':'#0000FF',
+     'height':'100px',
+     'width':'200px'
+   }).slideUp()
+ });
 });
